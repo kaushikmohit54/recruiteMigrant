@@ -30,7 +30,7 @@ public class RegisterNewWorkers extends Configuration{
 		loginData=new LoginData();
 		login=new Login(driver);
 		login.login(LoginData.USER_NAME,LoginData.PASSWORD);
-		//pass
+		//password
 		
  
 		
