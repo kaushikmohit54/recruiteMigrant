@@ -1,4 +1,4 @@
-package requirements.workerRegistration;
+package requirements.crmHome;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
@@ -9,7 +9,7 @@ import data.LoginData;
 import pages.Login;
 import qaFramework.support.ExtentManager;
 
-public class RegisterNewWorkers extends Configuration{
+public class crmHome extends Configuration{
 
 	public ExtentReports rep = ExtentManager.getInstance();
 	public  ExtentTest test;
